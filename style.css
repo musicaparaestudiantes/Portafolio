@@ -1,0 +1,62 @@
+#presentacion {
+    height: vh100;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-image: url("assets/Notas.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.destacados {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#destacado-1 {
+    background-image: url('assets/Kirby.jpeg');;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#destacado-2 {
+    background-image: url('assets/Chopin.jpeg');;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#destacado-3 {
+    background-image: url('assets/Instagram.jpeg');;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#destacado-4 {
+    background-image: url('assets/Cecile\ Chaminade.jpg');;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.text-shadow-1 { 
+    text-shadow: 10px -0.125rem 15px rgba(0, 0, 0, 1);
+}
+
+#instagram {
+    background-color: transparent;
+}
+
+
+#instagram:hover {
+        background: pink;
+        border-color: transparent;
+}
+
