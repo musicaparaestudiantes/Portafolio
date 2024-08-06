@@ -20,7 +20,7 @@
 
     <!-- Cabecera de mi pagina -->
     <header>
-        <nav class="navbar navbar-expand-md bg-black">
+        <nav class="navbar fixed-top navbar-expand-md bg-black">
             <div class="container">
                 <a class="navbar-brand text-white" href="#">MusicaParaEstudiantes</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -65,27 +65,30 @@
 
 
 
-    <main>
+    <main class="pb-5">
         <section id="presentacion" class="container-">
-           <div class="container col-xxl-8 px-4 py-5">
-            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-8 col-lg-6">
-                    <img src="assets/Pianista.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
-                        width="700" height="500" loading="lazy">
-                </div>
-                <div class="col-lg-6">
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Fani, creadora de Musica Para Estudiantes
-                    </h1>
-                    <p class="lead text-$purple-900">Nuestra página se dedica a fomentar el arte y la cultura a través del piano,
-                        mostrando el talento de estudiantes universitarios en música. Queremos que la población
-                        hidrocálida vea cómo se desarrolla un músico, destacando que estudiar música es tan importante
-                        como cualquier otra carrera. ¡Acompáñanos en este viaje musical!</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Clases</button>
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="assets/Pianista.jpeg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                            width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6 bg-transparent p-3">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Fani, creadora de Musica Para
+                            Estudiantes
+                        </h1>
+                        <p class="letras lead text-white">Nuestra página se dedica a fomentar el arte y la cultura a
+                            través del piano,
+                            mostrando el talento de estudiantes universitarios en música. Queremos que la población
+                            hidrocálida vea cómo se desarrolla un músico, destacando que estudiar música es tan
+                            importante
+                            como cualquier otra carrera. ¡Acompáñanos en este viaje musical!</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Clases</button>
+                        </div>
                     </div>
                 </div>
             </div>
-           </div>
         </section>
 
 
@@ -236,8 +239,9 @@
 
 
         <section id="Testimonios">
-            <div id="myCarousel" class="carousel carousel-dark slide mb-6 pointer-event"
-                data-bs-theme="dark" data-bs-ride="carousel">
+                <h1 class="text-center my-5">Testimonios</h1>
+            <div id="myCarousel" class="carousel carousel-dark slide mb-6 pointer-event" data-bs-theme="dark"
+                data-bs-ride="carousel">
 
                 <div class="carousel-inner">
 
@@ -251,8 +255,7 @@
 
                     <div class="carousel-item active">
                         <article class="container text-center">
-                            <img class="rounded-9" height="300" src="assets/Testimonio 1.jpeg"
-                                alt="Alan Macias">
+                            <img class="rounded-9" height="300" src="assets/Testimonio 1.jpeg" alt="Alan Macias">
                             <h3> Alan Macias</h3>
                             <p>Yo siempre practicaba por mi cuenta pero Fani me ayudó a mejorar muchísimo mu técnica y
                                 teoría armónica en poco tiempo</p>
@@ -270,17 +273,15 @@
 
                 </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </section>
 
 
@@ -288,15 +289,35 @@
 
 
 
-    <footer id="Contacto" class="py-3 my-4">
+    <footer id="Contacto" class="bg-info-subtle py-3 mt-5" data-bs-theme="dark">
+        <p class="my-2 text-white text-center texto-gigante">
+            <i class="bi bi-music-note-beamed"></i>
+        </p>
+
+        <h6 class="text-white text-center mb-3">"El piano es mi voz, . . . puedo contar historias sin necesidad de palabras"
+        </h6>
+
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="https://github.com/musicaparaestudiantes" target="_blank"
+                    class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-github fs-2"></i>
+                </a>
+            </li>
+
+            <li class="nav-item"><a href="https://www.instagram.com/musicaparaestudiantes?igsh=MXc1bzU2cWwxeWUzdw=="
+                    target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-instagram fs-2"></i>
+                </a>
+            </li>
+
+            <li class="nav-item"><a href="fanigallegos476@gmail.com" target="_blank"
+                    class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-envelope-at fs-2"></i>
+                </a>
+            </li>
+
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+        <p class="text-center text-body-secondary">© 2024 Fani, TECNOLOCHICAS PRO</p>
     </footer>
 
 
