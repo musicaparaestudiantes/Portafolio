@@ -66,3 +66,19 @@
 .texto-gigante {
     font-size: 40px;
 }
+
+.circulo-1{
+    border-radius: 50%;
+}
+
+.circulo-2{
+    border-radius: 50%;
+    width: 20em;
+    height: 18em;
+}
+
+.circulo-3{
+    border-radius: 50%;
+    width: 20em;
+    height: 18em;
+}
